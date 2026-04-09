@@ -1,7 +1,8 @@
-# forgejo-fj-api skill
+# Forgejo Workflow
 
 OpenClaw skill for working with self-hosted Forgejo instances through `fj`, the
-Forgejo REST API, and local `git` for review workflows.
+Forgejo REST API, and local `git` for review workflows. Published on ClawHub as
+`forgejo-fj-api`.
 
 ## What this skill does
 
