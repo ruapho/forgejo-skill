@@ -3,7 +3,27 @@ name: forgejo
 description: Forgejo via fj and REST API for repos, issues, PRs, wiki, CI, and reviews.
 version: 0.1.0
 homepage: https://github.com/nerasse/forgejo-skill
-metadata: {"openclaw":{"emoji":"🦊","homepage":"https://github.com/nerasse/forgejo-skill","requires":{"bins":["fj","curl","jq","git"],"env":["FORGEJO_URL","FORGEJO_TOKEN"]},"primaryEnv":"FORGEJO_TOKEN","install":[{"id":"brew","kind":"brew","formula":"forgejo-cli","bins":["fj"],"label":"Install Forgejo CLI (brew)"}]}}
+metadata:
+  openclaw:
+    emoji: "🦊"
+    homepage: https://github.com/nerasse/forgejo-skill
+    requires:
+      bins:
+        - fj
+        - curl
+        - jq
+        - git
+      env:
+        - FORGEJO_URL
+        - FORGEJO_TOKEN
+    primaryEnv: FORGEJO_TOKEN
+    install:
+      - id: brew
+        kind: brew
+        formula: forgejo-cli
+        bins:
+          - fj
+        label: Install Forgejo CLI (brew)
 ---
 
 Use the `fj` CLI and the Forgejo REST API to interact with Forgejo repositories,
