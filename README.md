@@ -1,4 +1,4 @@
-# forgejo skill
+# forgejo-fj-api skill
 
 OpenClaw skill for working with self-hosted Forgejo instances through `fj`, the
 Forgejo REST API, and local `git` for review workflows.
@@ -139,7 +139,7 @@ still cover API-only tasks.
 ## Install the skill
 
 ```bash
-clawhub install nerasse/forgejo
+clawhub install forgejo-fj-api
 ```
 
 ## Included references
@@ -160,7 +160,7 @@ clawhub install nerasse/forgejo
 ## Publish
 
 ```bash
-clawhub publish . --slug forgejo --version 0.1.0
+clawhub publish . --slug forgejo-fj-api --version 0.1.0
 ```
 
 ## License

@@ -11,11 +11,9 @@ In this repo, `.md` files are usually shipped skill content, not ancillary docs.
 - Follow Keep a Changelog `1.1.0`: https://keepachangelog.com/en/1.1.0/
 - Update only `## [Unreleased]` unless a specific version is requested.
 - When releasing, create or update `## [<version>] - YYYY-MM-DD` from `Unreleased`.
-- Do not rewrite past releases unless explicitly asked.
 - Keep entries concise, user-facing, actionable, and deduplicated.
 - Treat core skill Markdown changes as product changes when they alter capability, setup, workflow, or references.
 - Ignore only true ancillary changes such as `docs/`, guides, notes, images, and assets.
-- In monorepos, group by package, then by feature.
 
 # Commit Message
 
@@ -30,4 +28,3 @@ In this repo, `.md` files are usually shipped skill content, not ancillary docs.
 - Start from staged changes as source of truth.
 - Update affected product docs before changelog updates.
 - For releases, stage required doc and changelog edits, create one normal commit, create an annotated tag, then push branch and tag.
-- Never force-push, rewrite published history, or replace an existing tag.

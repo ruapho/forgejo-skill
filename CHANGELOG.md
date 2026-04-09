@@ -4,8 +4,6 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
-
 ## [0.1.0] - 2026-04-09
 
 ### Added
@@ -13,6 +11,3 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Added setup and readiness guidance for required tools, environment variables, and `fj` authentication.
 - Added REST API reference coverage for wiki writes, labels, milestones, notifications, pagination, and inline pull request reviews.
 - Added CI and code review references for Actions inspection, pull request checkout, diff review, and review reporting.
-
-### Changed
-- Changed the shipped `SKILL.md` metadata block to expanded YAML for clearer OpenClaw requirements and installer configuration.

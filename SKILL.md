@@ -1,5 +1,5 @@
 ---
-name: forgejo
+name: forgejo-fj-api
 description: Forgejo via fj and REST API for repos, issues, PRs, wiki, CI, and reviews.
 version: 0.1.0
 homepage: https://github.com/nerasse/forgejo-skill
