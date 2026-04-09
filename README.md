@@ -161,7 +161,7 @@ clawhub install forgejo-fj-api
 ## Publish
 
 ```bash
-clawhub publish . --slug forgejo-fj-api --version 0.1.0
+clawhub publish . --slug forgejo-fj-api --version 0.1.1
 ```
 
 ## License

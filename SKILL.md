@@ -1,7 +1,7 @@
 ---
 name: Forgejo Workflow
 description: Forgejo via fj and REST API for repos, issues, PRs, wiki, CI, and reviews.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/nerasse/forgejo-skill
 metadata:
   openclaw:
