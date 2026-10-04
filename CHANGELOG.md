@@ -6,6 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+### Changed
+- Renamed the frontmatter skill name to `forgejo-workflow`; the Agent Skills specification (and pi) requires lowercase letters, digits, and hyphens. Display title stays "Forgejo Workflow".
+
 ## [0.1.1] - 2026-04-09
 
 ### Changed
